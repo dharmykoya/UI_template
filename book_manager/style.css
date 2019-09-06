@@ -14,7 +14,7 @@ body {
 .main-page {
   background-color: white;
   max-width: fit-content;
-  /* overflow: hidden; */
+  overflow: hidden;
   margin: 75px auto;
   border-radius: 20px;
 }
@@ -443,7 +443,6 @@ media query
 @media (min-width: 1024px) {
   .main-page {
     display: flex;
-
     overflow: hidden;
   }
 }
