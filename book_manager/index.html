@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://use.fontawesome.com/df566630b6.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+      crossorigin="anonymous"
+    />
+
+    <!-- OR -->
+
+    <!-- <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+      integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+      crossorigin="anonymous"
+    ></script> -->
+    <title>Book manager</title>
+  </head>
+  <body>
+    <div>
+      <section class="categories-container">
+        <div class="first-section-container">
+          <div class="app-name pd-l-50">
+            <i class="fa fa-book logo" aria-hidden="true"></i
+            ><a href="#" class="company-name">Book Manager</a>
+          </div>
+          <div class="categories">
+            <h3 class="pd-l-50">Categories</h3>
+            <div class="category-type-container">
+              <div class="category-type">
+                <div>
+                  <i class="fa fa-envelope"></i>
+                  <div class="category-text">
+                    <span>Text to your friend</span>
+                    <p>Message</p>
+                  </div>
+                </div>
+                <i class="fa fa-star star"></i>
+              </div>
+              <div class="category-type category-type-active">
+                <div>
+                  <i class="fa fa-bookmark bookmark-active"></i>
+                  <div class="category-text">
+                    <span>All your books in one place</span>
+                    <p>Your bookroom</p>
+                  </div>
+                </div>
+                <i class="fa fa-star star-active"></i>
+              </div>
+              <div class="category-type">
+                <div>
+                  <i class="fas fa-calendar"></i>
+                  <div class="category-text">
+                    <span>Create your own schedule</span>
+                    <p>Schedules</p>
+                  </div>
+                </div>
+                <i class="fa fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="storage-container">
+            <i class="fas fa-cloud storage-icon"></i>
+            <p>Storage</p>
+            <div class="progress-bar-container">
+              <span>50%</span>
+              <div class="progress-bar">
+                <span class="progress-bar-value"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="middle-section-container">
+        <div class="search-container">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" placeholder="search book" class="search-book" />
+        </div>
+        <div class="project-container">
+          <div class="project-header">
+            <h3>Projects</h3>
+            <a href="#"
+              ><h5>View all <i class="fas fa-chevron-right"></i></h5
+            ></a>
+          </div>
+          <div class="project-folder-container">
+            <div class="project-folder">
+              <i class="far fa-folder folder-icon"></i>
+              <div>
+                <p>Lightpaper</p>
+                <span>PDF | 8 Pages</span>
+              </div>
+              <a href="#">read</a>
+            </div>
+            <div class="project-folder">
+              <i class="far fa-folder folder-icon"></i>
+              <div>
+                <p>Whitepaper</p>
+                <span>PDF | 8 Pages</span>
+              </div>
+              <a href="#">read</a>
+            </div>
+            <div class="add-new-project">
+              <i class="fas fa-plus plus-circle-icon"></i>
+              <div>
+                <p>Add new project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popular-books-container">
+          <div class="popular-books">
+            <h3>Popular downloaded books</h3>
+            <div class="books-container book-active">
+              <div>
+                <img src="./arts.jpg" class="book-image" alt="book" />
+              </div>
+              <div><p>The Pavilla Hill</p></div>
+              <div class="books-muted"><p>Montevideo</p></div>
+              <div class="books-muted"><p>14:30</p></div>
+              <div class="books-icon-container">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="books-icon-container">
+                <i class="fas fa-download download-icon"></i>
+              </div>
+            </div>
+
+            <div class="books-container book-not-active">
+              <div>
+                <img src="./basil.jpg" class="book-image" alt="book" />
+              </div>
+              <div><p>UI/UX design</p></div>
+              <div class="books-muted"><p>Lagos</p></div>
+              <div class="books-muted"><p>02:30</p></div>
+              <div class="books-icon-container">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="books-icon-container">
+                <a href="#"><i class="fas fa-download download-icon"></i></a>
+              </div>
+            </div>
+
+            <div class="books-container">
+              <div>
+                <img src="./python.jpg" class="book-image" alt="book" />
+              </div>
+              <div><p>Django Python</p></div>
+              <div class="books-muted"><p>Lagos</p></div>
+              <div class="books-muted"><p>08:30</p></div>
+              <div class="books-icon-container">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <div class="books-icon-container">
+                <i class="fas fa-download download-icon"></i>
+              </div>
+            </div>
+
+            <div class="project-book-button-container">
+              <button class="book-button-active">Today</button>
+              <button class="book-button books-muted">Week</button>
+              <button class="book-button books-muted">Month</button>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bar-container">
+          <a href="#">Why BookManager?</a>
+          <a href="#">Use Cases</a>
+          <a href="#">Whitepaper</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </section>
+      <section></section>
+    </div>
+  </body>
+</html>
