@@ -12,19 +12,13 @@
       integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
       crossorigin="anonymous"
     />
-
-    <!-- OR -->
-
-    <!-- <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
-      integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
-      crossorigin="anonymous"
-    ></script> -->
     <title>Book manager</title>
   </head>
   <body>
-    <div>
+    <div class="seating-image">
+      <img src="./sittingImage.svg" alt="banner" />
+    </div>
+    <div class="main-page">
       <section class="categories-container">
         <div class="first-section-container">
           <div class="app-name pd-l-50">
@@ -177,7 +171,54 @@
           <a href="#">Contact Us</a>
         </div>
       </section>
-      <section></section>
+      <section class="third-section">
+        <div class="profile-notification-container">
+          <div class="profile-icon-container">
+            <span class="new-notification"></span>
+            <i class="far fa-bell bell-icon"></i>
+          </div>
+          <div class="profile-details-container">
+            <h5>Damilola Adekoya</h5>
+            <div>
+              <img src="./profile.jpg" class="book-image" alt="profile" />
+            </div>
+          </div>
+        </div>
+        <div class="new-info-container">
+          <div>
+            <h3>Try it now</h3>
+            <p>
+              BookManager invites you to enter a new age of decentralized
+              storage
+            </p>
+            <div class="book-manager-review-container">
+              <div class="review-star-container">
+                <i class="fa fa-star star-active"></i>
+                <i class="fa fa-star star-active"></i>
+                <i class="fa fa-star star-active"></i>
+                <i class="fa fa-star star-active"></i>
+                <i class="fa fa-star review-star"></i>
+              </div>
+              <hr class="review-ruler" />
+              <span>2343 review</span>
+            </div>
+            <div>
+              <button class="beta-version-button book-button-active">
+                Join beta version
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="illustration">
+          <div class="illustration-background">
+            <img
+              src="./indexImage.svg"
+              class="illustration-image"
+              alt="illustration"
+            />
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
