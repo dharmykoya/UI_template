@@ -1,11 +1,10 @@
 body {
   background-color: skyblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .seating-image {
   position: absolute;
-  top: -25px;
-  left: 165px;
-  margin-top: 28px;
+  top: 0px;
 }
 
 .seating-image img {
@@ -224,7 +223,10 @@ styling of the second column
   width: 120px;
   border: 1px dashed #00000045;
   flex-direction: column;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  min-width: 120px;
+  max-width: 120px;
+  padding: 4px;
 }
 
 .plus-circle-icon {
